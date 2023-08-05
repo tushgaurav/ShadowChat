@@ -19,25 +19,25 @@
       </ul>
     </nav>
 
-    <h1 class="room-message">Connecting to Room</h1>
+    <h1 class="room-message"></h1>
 
     <div class="chat_layout">
-      <div class="window">
-        <div class="chat-message">
-          <div id="output"></div>
-          <div id="feedback"></div>
+        <div class="window">
+            <div class="chat-message">
+                <div id="output"></div>
+                <div id="feedback"></div>
+            </div>
+            <div class="fields">
+                <input type="text" id="message" placeholder="Enter message" />
+                <button id="send">Send</button>
+            </div>
         </div>
-        <div class="fields">
-          <input type="text" id="message" placeholder="Enter message" />
-          <button id="send">Send</button>
+        <div class="online">
+            <p class="users-online">Users Online</p>
+            <div class="users"></div>
         </div>
-      </div>
-      <div class="online">
-        <p class="users-online">Users Online</p>
-        <div class="users"></div>
-      </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.1/socket.io.js"></script>
-    <!-- <script src="/  -->
+    <script src="/chat.js"></script>
   </body>
 </html>

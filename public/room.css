@@ -1,5 +1,77 @@
+.room-message {
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+}
+
 .chat_layout {
     display: flex;
-    flex-direction: column;
-    height: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 10px;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.window {
+    flex: 2;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.chat-message {
+    max-height: 500px;
+    overflow-y: scroll;
+    padding: 10px;
+}
+
+.fields {
+    display: flex;
+    gap: 10px;
+    margin-top: 50%;
+}
+
+#message {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #BEFFC7;
+}
+
+#send {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #BEFFC7;
+    color: #000;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#send:hover {
+    background-color: #9AE6B4;
+}
+
+.online {
+    flex: 1;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.users-online {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.users {
+    padding: 10px;
+    max-height: 300px;
+    overflow-y: scroll;
 }
