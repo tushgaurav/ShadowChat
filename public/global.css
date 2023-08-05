@@ -1,0 +1,66 @@
+/* Fonts */
+@font-face {
+  font-family: "Railway";
+  src: url("fonts/Raleway-Regular.woff") format('woff');
+}
+
+@font-face {
+  font-family: "Railway";
+  src: url("fonts/Raleway-Bold.woff") format('woff');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Railway";
+  src: url("fonts/Raleway-Light.woff") format('woff');
+  font-weight: light;
+}
+
+:root {
+    --background-color: #000F08;
+    --heading-text-color: #BEFFC7;
+    --accent-color: #FF7700;
+    --font-family: 'Railway', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--heading-text-color);
+    font-family: var(--font-family);
+}
+
+/* Nav */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: var(--background-color);
+    color: var(--heading-text-color);
+    font-family: var(--font-family);
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 1em;
+}
+
+nav a {
+    color: var(--heading-text-color);
+    text-decoration: none;
+}
+
+.content {
+    padding: 1rem 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}

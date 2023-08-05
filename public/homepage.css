@@ -1,0 +1,57 @@
+.hero_text {
+    text-shadow: 2px -1px 25px rgba(190, 255, 199, 0.64);
+    font-size: 2em;    
+    font-weight: 700;
+}
+
+main {
+    padding: 2rem;
+    text-align: center;
+    margin-bottom: 4em;
+}
+
+.form-container {
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Subtle shadow effect */
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.input-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.username,
+.roomname {
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+    color: #BEFFC7;
+    font-family: 'Raleway', sans-serif;
+}
+
+.submit-button {
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #BEFFC7;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #9AE6B4; /* Lighter shade on hover */
+}
